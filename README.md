@@ -3,7 +3,7 @@ THREE.Fire
 
 Ray tracing based [real-time procedural volumetric fire](http://dl.acm.org/citation.cfm?id=1230131) object for three.js.
 
-![fire](https://raw.githubusercontent.com/mattatz/THREE.Cloud/master/Captures/fire.gif)
+![fire](https://raw.githubusercontent.com/mattatz/THREE.Fire/master/Captures/fire.gif)
 
 
 ## Example
