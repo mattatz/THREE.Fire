@@ -37,7 +37,7 @@ You must pass a fire texture argument to THREE.Fire like this.
 
 ## Sources
 
-- Alfred et al. Real-Time procedural volumetric fire - http://dl.acm.org/citation.cfm?id=1230131
+- Real-Time procedural volumetric fire - http://dl.acm.org/citation.cfm?id=1230131
 
 - webgl-noise - https://github.com/ashima/webgl-noise/blob/master/src/noise3D.glsl
 
