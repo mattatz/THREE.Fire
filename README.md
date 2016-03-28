@@ -41,5 +41,5 @@ You must pass a fire texture argument to THREE.Fire like this.
 
 - webgl-noise - https://github.com/ashima/webgl-noise/blob/master/src/noise3D.glsl
 
-- primitive: blog | object space raymarching - https://github.com/ashima/webgl-noise/blob/master/src/noise3D.glsl
+- primitive: blog | object space raymarching - http://i-saint.hatenablog.com/entry/2015/08/24/225254
 
