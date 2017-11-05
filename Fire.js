@@ -19,7 +19,7 @@ THREE.Fire = function ( fireTex, color ) {
     // initialize uniforms 
 
     fireTex.magFilter = fireTex.minFilter = THREE.LinearFilter;
-    fireTex.wrapS = THREE.wrapT = THREE.ClampToEdgeWrapping;
+    fireTex.wrapS = fireTex.wrapT = THREE.ClampToEdgeWrapping;
     
     fireMaterial.uniforms.fireTex.value = fireTex;
     fireMaterial.uniforms.color.value = color || new THREE.Color( 0xeeeeee );
