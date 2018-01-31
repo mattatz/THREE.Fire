@@ -37,8 +37,8 @@ THREE.Fire.prototype.update = function ( time ) {
 
     var invModelMatrix = this.material.uniforms.invModelMatrix.value;
 
-    this.updateMatrix();
-    invModelMatrix.getInverse( this.matrix );
+    this.updateMatrixWorld();
+    invModelMatrix.getInverse( this.matrixWorld );
 
     if( time !== undefined ) {
         this.material.uniforms.time.value = time;
