@@ -12,7 +12,8 @@ Ray tracing based [real-time procedural volumetric fire](http://dl.acm.org/citat
 
 var scene = new THREE.Scene();
 
-var tex = THREE.ImageUtils.loadTexture("Fire.png");
+var textureLoader = new THREE.TextureLoader();
+var tex = textureLoader.load("Fire.png");
 var fire = new THREE.Fire( tex );
 
 scene.add( fire );
