@@ -18,6 +18,14 @@ var fire = new THREE.Fire( tex );
 
 scene.add( fire );
 
+function animate() {
+  requestAnimationFrame( animate );
+
+  fire.update(performance.now() / 1000);
+  renderer.render( scene, camera );
+}
+animate();
+
 ```
 
 ## Description
